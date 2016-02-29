@@ -4,13 +4,11 @@
 //
 //  Created by George Fitzgibbons on 2/29/16.
 //  Copyright © 2016 Nanigans. All rights reserved.
-//
 
-import Foundation
 //delating Message
 func deleteMessages() {
     do {
-        let request = NSFetchRequest(entityName: "Message")
+        let request = NSFetchRequest(entityName: "Entity Name")
         print(request)
         
         if let result = try context!.executeFetchRequest(request) as? [Message]
