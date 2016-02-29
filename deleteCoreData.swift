@@ -6,7 +6,7 @@
 //  Copyright © 2016 Nanigans. All rights reserved.
 
 //delating Message
-func deleteMessages() {
+ func deleteMessages(entity: String) {
     do {
         let request = NSFetchRequest(entityName: "Entity Name")
         print(request)
