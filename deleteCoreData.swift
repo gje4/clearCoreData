@@ -4,7 +4,8 @@
 //
 //  Created by George Fitzgibbons on 2/29/16.
 //  Copyright © 2016 Nanigans. All rights reserved.
-
+//in the ui Controller
+    var context: NSManagedObjectContext?
 //delating Message
  func deleteMessages(entity: String) {
     do {
